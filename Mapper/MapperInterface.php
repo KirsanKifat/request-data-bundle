@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Mapper;
+namespace KirsanKifat\RequestDataBundle\Mapper;
 
-use Bilyiv\RequestDataBundle\Exception\NotSupportedFormatException;
+use KirsanKifat\RequestDataBundle\Exception\NotSupportedFormatException;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\EventListener;
+namespace KirsanKifat\RequestDataBundle\EventListener;
 
-use Bilyiv\RequestDataBundle\Event\FinishEvent;
-use Bilyiv\RequestDataBundle\Events;
-use Bilyiv\RequestDataBundle\Exception\NotSupportedFormatException;
-use Bilyiv\RequestDataBundle\Mapper\MapperInterface;
+use KirsanKifat\RequestDataBundle\Event\FinishEvent;
+use KirsanKifat\RequestDataBundle\Events;
+use KirsanKifat\RequestDataBundle\Exception\NotSupportedFormatException;
+use KirsanKifat\RequestDataBundle\Mapper\MapperInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
 

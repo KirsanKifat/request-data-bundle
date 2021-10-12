@@ -1,9 +1,9 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Extractor;
+namespace KirsanKifat\RequestDataBundle\Extractor;
 
-use Bilyiv\RequestDataBundle\Formats;
-use Bilyiv\RequestDataBundle\TypeConverter\TypeConverterInterface;
+use KirsanKifat\RequestDataBundle\Formats;
+use KirsanKifat\RequestDataBundle\TypeConverter\TypeConverterInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

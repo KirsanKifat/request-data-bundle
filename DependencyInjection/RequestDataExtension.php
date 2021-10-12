@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\DependencyInjection;
+namespace KirsanKifat\RequestDataBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

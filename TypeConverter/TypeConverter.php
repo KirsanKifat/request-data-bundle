@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\TypeConverter;
+namespace KirsanKifat\RequestDataBundle\TypeConverter;
 
 /**
  * @author Vladyslav Bilyi <beliyvladislav@gmail.com>

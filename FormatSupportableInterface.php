@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle;
+namespace KirsanKifat\RequestDataBundle;
 
 /**
  * @author Vladyslav Bilyi <beliyvladislav@gmail.com>

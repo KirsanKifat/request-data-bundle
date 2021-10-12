@@ -1,8 +1,8 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Extractor;
+namespace KirsanKifat\RequestDataBundle\Extractor;
 
-use Bilyiv\RequestDataBundle\FormatSupportableInterface;
+use KirsanKifat\RequestDataBundle\FormatSupportableInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle;
+namespace KirsanKifat\RequestDataBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

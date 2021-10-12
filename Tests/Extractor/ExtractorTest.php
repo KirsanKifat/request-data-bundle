@@ -1,11 +1,11 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\Extractor;
+namespace KirsanKifat\RequestDataBundle\Tests\Extractor;
 
-use Bilyiv\RequestDataBundle\Extractor\Extractor;
-use Bilyiv\RequestDataBundle\Extractor\ExtractorInterface;
-use Bilyiv\RequestDataBundle\Formats;
-use Bilyiv\RequestDataBundle\TypeConverter\TypeConverterInterface;
+use KirsanKifat\RequestDataBundle\Extractor\Extractor;
+use KirsanKifat\RequestDataBundle\Extractor\ExtractorInterface;
+use KirsanKifat\RequestDataBundle\Formats;
+use KirsanKifat\RequestDataBundle\TypeConverter\TypeConverterInterface;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 

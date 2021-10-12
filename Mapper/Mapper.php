@@ -1,11 +1,11 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Mapper;
+namespace KirsanKifat\RequestDataBundle\Mapper;
 
-use Bilyiv\RequestDataBundle\Exception\NotSupportedFormatException;
-use Bilyiv\RequestDataBundle\Extractor\ExtractorInterface;
-use Bilyiv\RequestDataBundle\Formats;
-use Bilyiv\RequestDataBundle\FormatSupportableInterface;
+use KirsanKifat\RequestDataBundle\Exception\NotSupportedFormatException;
+use KirsanKifat\RequestDataBundle\Extractor\ExtractorInterface;
+use KirsanKifat\RequestDataBundle\Formats;
+use KirsanKifat\RequestDataBundle\FormatSupportableInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 use Symfony\Component\Serializer\SerializerInterface;

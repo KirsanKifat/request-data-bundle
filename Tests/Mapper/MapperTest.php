@@ -1,14 +1,14 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\Extractor;
+namespace KirsanKifat\RequestDataBundle\Tests\Extractor;
 
-use Bilyiv\RequestDataBundle\Exception\NotSupportedFormatException;
-use Bilyiv\RequestDataBundle\Extractor\ExtractorInterface;
-use Bilyiv\RequestDataBundle\Formats;
-use Bilyiv\RequestDataBundle\Mapper\Mapper;
-use Bilyiv\RequestDataBundle\Mapper\MapperInterface;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestFormatSupportableRequestData;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestRequestData;
+use KirsanKifat\RequestDataBundle\Exception\NotSupportedFormatException;
+use KirsanKifat\RequestDataBundle\Extractor\ExtractorInterface;
+use KirsanKifat\RequestDataBundle\Formats;
+use KirsanKifat\RequestDataBundle\Mapper\Mapper;
+use KirsanKifat\RequestDataBundle\Mapper\MapperInterface;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestFormatSupportableRequestData;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestRequestData;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;

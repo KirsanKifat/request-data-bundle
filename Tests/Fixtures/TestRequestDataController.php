@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\Fixtures;
+namespace KirsanKifat\RequestDataBundle\Tests\Fixtures;
 
 /**
  * @author Vladyslav Bilyi <beliyvladislav@gmail.com>

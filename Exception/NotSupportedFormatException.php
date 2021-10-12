@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Exception;
+namespace KirsanKifat\RequestDataBundle\Exception;
 
 /**
  * @author Vladyslav Bilyi <beliyvladislav@gmail.com>

@@ -1,9 +1,9 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\Fixtures;
+namespace KirsanKifat\RequestDataBundle\Tests\Fixtures;
 
-use Bilyiv\RequestDataBundle\Formats;
-use Bilyiv\RequestDataBundle\FormatSupportableInterface;
+use KirsanKifat\RequestDataBundle\Formats;
+use KirsanKifat\RequestDataBundle\FormatSupportableInterface;
 
 /**
  * @author Vladyslav Bilyi <beliyvladislav@gmail.com>

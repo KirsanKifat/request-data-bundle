@@ -1,9 +1,9 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\TypeConverter;
+namespace KirsanKifat\RequestDataBundle\Tests\TypeConverter;
 
-use Bilyiv\RequestDataBundle\TypeConverter\TypeConverter;
-use Bilyiv\RequestDataBundle\TypeConverter\TypeConverterInterface;
+use KirsanKifat\RequestDataBundle\TypeConverter\TypeConverter;
+use KirsanKifat\RequestDataBundle\TypeConverter\TypeConverterInterface;
 use PHPUnit\Framework\TestCase;
 
 /**

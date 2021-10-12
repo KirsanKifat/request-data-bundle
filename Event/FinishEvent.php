@@ -1,6 +1,6 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Event;
+namespace KirsanKifat\RequestDataBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 

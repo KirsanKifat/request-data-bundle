@@ -1,13 +1,13 @@
 <?php
 
-namespace Bilyiv\RequestDataBundle\Tests\EventListener;
+namespace KirsanKifat\RequestDataBundle\Tests\EventListener;
 
-use Bilyiv\RequestDataBundle\EventListener\ControllerListener;
-use Bilyiv\RequestDataBundle\Mapper\MapperInterface;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestAbstractController;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestController;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestRequestData;
-use Bilyiv\RequestDataBundle\Tests\Fixtures\TestRequestDataController;
+use KirsanKifat\RequestDataBundle\EventListener\ControllerListener;
+use KirsanKifat\RequestDataBundle\Mapper\MapperInterface;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestAbstractController;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestController;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestRequestData;
+use KirsanKifat\RequestDataBundle\Tests\Fixtures\TestRequestDataController;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -45,7 +45,7 @@ class ControllerListenerTest extends TestCase
         $this->controllerListener = new ControllerListener(
             $mapper,
             $dispatcher,
-            'Bilyiv\RequestDataBundle\Tests\Fixtures'
+            'KirsanKifat\RequestDataBundle\Tests\Fixtures'
         );
     }
 
