@@ -1,0 +1,26 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    request_data.extractor:
+        class: 'Bilyiv\RequestDataBundle\Extractor\Extractor'
+
+    Bilyiv\RequestDataBundle\Extractor\ExtractorInterface: '@request_data.extractor'
+
+    request_data.mapper:
+        class: 'Bilyiv\RequestDataBundle\Mapper\Mapper'
+
+    Bilyiv\RequestDataBundle\Mapper\MapperInterface: '@request_data.mapper'
+
+    request_data.type_converter:
+        class: 'Bilyiv\RequestDataBundle\TypeConverter\TypeConverter'
+
+    Bilyiv\RequestDataBundle\TypeConverter\TypeConverterInterface: '@request_data.type_converter'
+
+    request_data.controller_listener:
+        class: 'Bilyiv\RequestDataBundle\EventListener\ControllerListener'
+        arguments:
+            $prefix: ''
+        tags:
+            - {name: 'kernel.event_listener', event: 'kernel.controller'}
