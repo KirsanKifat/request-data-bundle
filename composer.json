@@ -1,5 +1,5 @@
 {
-    "name": "kirsankifat/request-data-bundle",
+    "name": "bilyiv/request-data-bundle",
     "type": "symfony-bundle",
     "description": "Represents request data in a structured and useful way.",
     "keywords": ["request", "data", "api", "rest", "json"],
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kirsankifat\\RequestDataBundle\\": ""
+            "Bilyiv\\RequestDataBundle\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
