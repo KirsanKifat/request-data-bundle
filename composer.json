@@ -1,5 +1,5 @@
 {
-    "name": "KirsanKifat/request-data-bundle",
+    "name": "kirsankifat/request-data-bundle",
     "type": "symfony-bundle",
     "description": "Represents request data in a structured and useful way.",
     "keywords": ["request", "data", "api", "rest", "json"],
