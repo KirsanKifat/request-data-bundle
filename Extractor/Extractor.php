@@ -30,7 +30,9 @@ class Extractor implements ExtractorInterface
             return array_merge($this->converter->convert($request->query->all()), $request->files->all() + $request->request->all());
         }
 
-        return array_merge($this->converter->convert($request->query->all()), $request->getContent());
+        $response = array_merge($this->converter->convert($request->query->all()), json_decode($request->getContent(),1));
+
+        return json_encode($response);
     }
 
     /**
