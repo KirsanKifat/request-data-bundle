@@ -26,21 +26,11 @@ class Extractor implements ExtractorInterface
      */
     public function extractData(Request $request, string $format)
     {
-        $method = $request->getMethod();
-
-        if (Request::METHOD_GET === $method) {
-            return $this->converter->convert($request->query->all());
+        if (Formats::FORM === $format) {
+            return array_merge($this->converter->convert($request->query->all()), $request->files->all() + $request->request->all());
         }
 
-        if (Request::METHOD_POST === $method || Request::METHOD_PUT === $method || Request::METHOD_PATCH === $method) {
-            if (Formats::FORM === $format) {
-                return $request->files->all() + $request->request->all();
-            }
-
-            return $request->getContent();
-        }
-
-        return null;
+        return array_merge($this->converter->convert($request->query->all()), $request->getContent());
     }
 
     /**
